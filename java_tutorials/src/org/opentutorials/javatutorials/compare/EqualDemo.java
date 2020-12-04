@@ -18,6 +18,8 @@ public class EqualDemo {
         String b = new String("Hello world");
         System.out.println(a == b);
         System.out.println(a.equals(b));
+        
+        
     
 	}
 
