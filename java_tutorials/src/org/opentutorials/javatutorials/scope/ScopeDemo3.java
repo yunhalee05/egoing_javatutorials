@@ -1,0 +1,18 @@
+package org.opentutorials.javatutorials.scope;
+
+public class ScopeDemo3 {
+    static int i;
+     
+    static void a() {
+        int i = 0;//지역변수로 선언해줘서 오류나지 않는다. 
+    }
+ 
+    public static void main(String[] args) {
+        for (i = 0; i < 5; i++) {
+            a();
+            System.out.println(i);
+        }
+    }
+ 
+
+}
