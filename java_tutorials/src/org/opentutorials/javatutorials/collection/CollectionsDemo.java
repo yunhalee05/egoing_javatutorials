@@ -16,7 +16,8 @@ class Computer implements Comparable{//comparable 인터페이스를 가져야 �
         return serial+" "+owner;
     }
 }
- 
+     
+
 public class CollectionsDemo {
      
     public static void main(String[] args) {
